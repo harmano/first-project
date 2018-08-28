@@ -1,7 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Indie+Flower:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Quicksand:100,200,300,400,500,600,700');
 
 
-
+.header{
+    margin: 0;
+    padding: 0;
+}
 
 
 .wallpaper{
@@ -11,9 +14,7 @@
     background-size: cover;
     height: 600px;
     width: 100%;
-    transition: all 1s ease-in-out;
-    -moz-transition: all 1s ease-in-out;
-    -webkit-transition: all 1s ease-in-out;
+    min-width: 360px;
     margin: 0;
 }
 
@@ -34,3 +35,94 @@
 }
 
 */
+
+.navigation{
+    color: #fafafa;
+    font-family: "Indie Flower";
+    font-weight: 200;
+    font-size: 18px;
+    display: inline-block;  
+    position: absolute;
+    top: 550px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.navigation ul li{
+    padding-left: 40px;
+}
+
+.navigation ul a{
+    width: 100%;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.navigation ul a:hover{
+    color:#EA703B;
+}
+
+.general{
+    font-family: "Quicksand",sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+}
+
+
+/*................................................................Footer*/
+
+footer{
+    background-color: #EA703B;
+    min-height: 150px;
+    margin: 0;
+    position: absolute;
+    height: 450px;
+    width: 100%;
+}
+
+.foot-general{
+    text-align: center;
+    font-family: "Quicksand",sans-serif;
+    font-weight: 300;
+    padding-top: 10px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.social-links li i {
+    color: #000000;
+    transition: all .35s ease-in-out;
+    padding-top: 10px;
+    padding-left: 20px;
+    -moz-transition: all .35s ease-in-out;
+    -webkit-transition: all .35s ease-in-out;
+    -o-transition: all .35s ease-in-out;
+}
+
+.social-links li i:hover{
+    color: #fafafa;
+}
+
+.policy-sub{
+    text-decoration: none;
+    color: #000000;
+}
+
+.copywrite{
+    padding-top: 10px;
+}
+
+
+.footer-img{
+    background-image: url("../images/cover3.jpg");
+    background-position: center;
+    position: static;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    height: 50px;
+    width: 100%;
+    min-width: 500px;
+    margin: 0;
+}
