@@ -16,6 +16,7 @@
     width: 100%;
     min-width: 360px;
     margin: 0;
+    transition: ease-in;
 }
 
 
@@ -40,7 +41,7 @@
     color: #fafafa;
     font-family: "Indie Flower";
     font-weight: 200;
-    font-size: 18px;
+    font-size: 21px;
     display: inline-block;  
     position: absolute;
     top: 550px;
@@ -125,4 +126,170 @@ footer{
     width: 100%;
     min-width: 500px;
     margin: 0;
+}
+
+
+.heading-style{
+    text-align: center;
+    font-family: "Quicksand",sans-serif;
+    font-weight: 500;
+    padding-top: 60px;
+    padding-bottom: 70px;
+    color: #EA703B;
+}
+
+.davy-jones{
+    background-image: url("../images/davy-jones.jpg");
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 150px;
+    height:150px;
+    border-radius: 50%;
+}
+
+.icon{
+    padding-left: 15px;
+}
+
+.margin1 {
+    margin:20px;
+}
+
+.text-box{
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 200px;
+    text-align: center;
+}
+
+.paragraph2{
+    margin-bottom: 60px;
+}
+
+.space1{
+    padding-left: 25px;
+}
+
+.social-links2 li a i{
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background-color: rgb(255,127,80, .8);
+    transition: all .35s ease-in-out;
+    -moz-transition: all .35s ease-in-out;
+    -webkit-transition: all .35s ease-in-out;
+    -o-transition: all .35s ease-in-out;
+}
+
+.social-links2 li a i:hover{
+    background: #e84610;
+}
+
+
+.sub-gen{
+    padding-top: 20px;
+    text-align: center;
+}
+
+
+.bandcover{
+    height: 538px;
+    width: auto;
+    border-radius: 3%;
+    background-size: cover;
+    
+}
+
+.jumbotron-space{
+    padding-top: 80px;
+}
+
+.jumbo-head{
+    color: rgb(255,127,80, .95);
+    font-size: 70px;
+    font-family: "Quicksand",sans-serif;
+    text-align: center;
+   
+}
+
+.padding-top1{
+    padding-top: 40px;
+    padding-left: auto;
+    padding-right: auto;
+    padding-bottom: 130px;
+}
+
+.heading-style2{
+    text-align: center;
+    font-family: "Quicksand",sans-serif;
+    font-weight: 500;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    color: #EA703B;
+}
+
+.icon-size i{
+    color: #787878;
+    text-shadow: 3px 3px 3px #ccc;
+    font-size: 4.5em;
+    padding-top: 20px;
+}
+
+.video{
+    height: auto;
+    width: 100%;
+    margin: 30px;
+    padding-right:60px;
+}
+
+.heading-clips{
+    font-family: "Quicksand",sans-serif;
+    color: #EA703B;
+    padding-top: 40px;
+}
+
+.album-cover{
+    width: 320;
+    height: 240;
+    padding-bottom: 20px;
+}
+
+.cover-heading{
+    text-align: center;
+    font-family: "Quicksand",sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    color: #EA703B;
+}
+
+.padding6{
+    padding-bottom: 100px;
+}
+
+
+
+
+.wallpaper-clis{
+    background-image: url("/assets/images/preforming.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    min-width: 360px;
+    margin: 0;
+    transition: ease-in;
 }
